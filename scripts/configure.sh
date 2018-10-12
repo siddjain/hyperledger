@@ -64,7 +64,7 @@ usermod -aG docker $AZUREUSER
 # System configuration to be performed as root #
 ################################################
 
-curl -sL https://deb.nodesource.com/setup_6.x | bash
+curl -sL https://deb.nodesource.com/setup_8.x | bash
 apt-get -y install nodejs build-essential
 npm install gulp -g
 
